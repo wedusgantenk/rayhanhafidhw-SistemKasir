@@ -1,0 +1,44 @@
+Judul : Sistem Kasir
+
+Deklarasi : pilih, kode_barang, jumlah_barang, hasil, : integer,
+nama_pelanggan, menu_utama, cetak_riwayat, hapus_riwayat, cetak_daftar : varchar
+
+Algoritma :
+
+input pilih
+    if(pilih = 1)
+        write(nama_pelanggan)
+        read(nama_pelanggan)
+        write(kode_barang)
+        read(kode_barang)
+        write(jumlah_barang)
+        read(jumlah_barang)
+        hasil=kode_barang*jumlah_barang
+
+        if Tambah = Yes then
+            read(hasil)
+        else
+            write(kode_barang)
+        
+        read(hasil)
+        if pilihan = y then
+            write(menu_utama)
+        else if pilihan = n then
+            write(kode_barang)
+        else 
+            end
+    else if(pilih = 2)
+        input pilih
+            if(pilih=1)
+                write(cetak_riwayat)
+            else if(pilih=2)
+                write(hapus_riwayat)
+            else(pilih=3)
+                menu_utama
+    else if(pilih = 3)
+        write(cetak_daftar)
+            menu_utama
+
+    else
+        end
+end
